@@ -11,7 +11,7 @@
 在项目根目录的 settings.gradle 文件中添加 jitpack.io 的地址：
 
 ```groovy
-    dependencyResolutionManagement {
+dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
         mavenCentral()
